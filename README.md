@@ -1,5 +1,10 @@
 # Hash Tables
 
+Ex. (17) - <strong>Hash table</strong> membership test structure appears here in Python. Though the syntax is Python-specific, the core idea stays identical. This snippet belongs to the set of 127 algorithms in <i>Antivirus Engines: From Methods to Innovations, Design, and Applications
+</i> (Elsevier Syngress, 2024).
+
+***
+
 This repository contains a minimal implementation of a <i>hash table</i> in Python using separate chaining for collision handling. The <i>H</i> class is designed to demonstrate the basic functionality of hash tables with very compact naming conventions, where all variable and method names are reduced to single-letter identifiers for simplicity and minimalism. Inside the class, the <i>init</i> method initializes the table with a fixed size, the <i>_h</i> method computes the hash index for a given key using Python’s built-in <i>hash()</i> function modulo the table size, the <i>i</i> method inserts key-value pairs at the computed index, and the <i>f</i> method searches for a value by its key. Keys are stored as strings representing hashes, and values represent categories such as <i>Trojan</i>, <i>Rootkit</i>, or <i>Bootkit</i>. The example usage shows how to create a table, insert elements, and perform lookups, returning either the stored value if the key exists or <i>None</i> if the key is not found. This repository is intended as an educational example to show the mechanics of hashing and collision resolution in Python, highlighting how simple structures can be reduced to their essential form while remaining functional and clear.
 
 ## Native implementation in Python
