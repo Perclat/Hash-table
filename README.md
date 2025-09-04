@@ -1,7 +1,6 @@
 # Hash Tables
 
-Ex. (17) - <strong>Hash table</strong> membership test structure appears here in Python. Though the syntax is Python-specific, the core idea stays identical. This snippet belongs to the set of 127 algorithms in <i>Antivirus Engines: From Methods to Innovations, Design, and Applications
-</i> (Elsevier Syngress, 2024).
+Ex. (17) - <strong>Hash table</strong> membership test structure appears here in Python. Though the syntax is Python-specific, the core idea stays identical. This snippet belongs to the set of 127 algorithms in <i><a href="https://github.com/Gagniuc/Antivirus-Engines">Antivirus Engines: From Methods to Innovations, Design, and Applications</a></i> (Elsevier Syngress, 2024).
 
 ***
 
