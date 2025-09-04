@@ -30,7 +30,9 @@ class H:
         return None
 
 
-# create a hash table and insert some key-value pairs:
+# create a hash table and
+# insert some key-value pairs:
+
 h = H(n=10)
 h.i("d41d8cd98f00b204e9800998ecf8427e", "Trojan")
 h.i("098f6bcd4621d373cade4e832627b4f6", "Rootkit")
